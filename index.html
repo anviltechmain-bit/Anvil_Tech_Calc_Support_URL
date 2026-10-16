@@ -85,7 +85,7 @@
       <nav aria-label="Support and legal information">
         <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms &amp; Conditions</a> | <a href="#licence">Licence</a>
       </nav>
-      <p class="meta">Effective date: October 15, 2026</p>
+      <p class="meta">Effective date: October 16, 2026</p>
       <p class="meta">Privacy Policy, Terms &amp; Conditions, Licence, and Support</p>
     </section>
 
@@ -105,10 +105,11 @@
         <li>Optional backup uses your own Google Drive appDataFolder with the limited app-data permission only.</li>
         <li>SHOP KEEPER APP creates or updates one private JSON backup file and does not request full Google Drive access. Your account email is saved locally so future backups use the account you selected.</li>
         <li>The developer does not receive, store, or view your entries or Google Drive backup.</li>
-        <li>Auto backup runs around 2:00 AM local time after Google Drive backup is connected. Android may delay work due to battery or network conditions.</li>
-        <li>Notifications are used to tell you when auto sync completes or needs attention.</li>
-        <li>Google AdMob may process IP address, device and advertising identifiers, diagnostics, and ad interactions to deliver and measure banner and interstitial ads. Sales and notes are never included in ad requests.</li>
-        <li>A banner ad may appear in a separate area below the calculator keypad. One muted interstitial ad may appear when you open History, at most once every 7 days. Ads depend on consent, connectivity, and availability.</li>
+        <li>Automatic backup targets 2:00 AM local time after Google Drive is connected. This is not an exact alarm: Android may delay it for battery or network conditions. A force-stopped app cannot run backup until reopened. The next daily target is recalculated after a completed run and when the device timezone or clock changes.</li>
+        <li>Cloud Backup shows the last automatic attempt, last successful automatic backup and errors. Temporary failures retry with increasing delays. You can turn automatic backup off without disconnecting your account.</li>
+        <li>Notifications, when allowed, report automatic backup completion or an error needing attention. Denying notifications does not disable backup.</li>
+        <li>Google AdMob may process IP address, device and advertising identifiers, diagnostics, and ad interactions to deliver and measure banner ads. Sales and notes are never included in ad requests.</li>
+        <li>A banner ad may appear in a separate area below the calculator keypad. There are no full-screen ads. Ads depend on consent, connectivity, and availability.</li>
         <li>Google's User Messaging Platform manages regional advertising privacy choices when required. Use AD PRIVACY OPTIONS in the app's information screen when available to change those choices. Advertising services may use device storage for consent and ad delivery. Read <a href="https://policies.google.com/technologies/ads">Google's advertising privacy information</a> for details.</li>
         <li>This static support page does not set cookies or run analytics scripts. Your app terms acceptance is saved locally. Updated terms are presented again when their version changes.</li>
         <li>The app does not ask for local storage file permissions because backup uses Google Drive appDataFolder.</li>
@@ -134,8 +135,9 @@
         <li>You should verify totals, backups, and synced records before relying on them for accounting, audit, tax, or legal decisions.</li>
         <li>You must not use the app for unlawful, harmful, deceptive, or fraudulent activity.</li>
         <li>You agree that the app may request notification permission for auto-sync completion alerts.</li>
-        <li>A Google AdMob banner may appear below the calculator keypad, and one muted interstitial may appear when opening History at most once every 7 days. Ads are clearly separated from calculator controls and are subject to regional privacy choices and availability.</li>
+        <li>A Google AdMob banner may appear below the calculator keypad. There are no full-screen ads. Ads are clearly separated from calculator controls and are subject to regional privacy choices and availability.</li>
         <li>Restore merges cloud records with local records using stable IDs and keeps the newer version. It does not wipe the database. You can disconnect Google Drive at any time without deleting your local records or existing cloud backup.</li>
+        <li>A newer, unmerged cloud snapshot is not automatically overwritten. Review and restore it before backing up from this device. Manual backups have a five-minute cooldown and restores a fifteen-minute cooldown; automatic backup is limited to one successful backup per local backup day.</li>
         <li>To the extent permitted by applicable law, the developer is not liable for losses from incorrect entries, deleted data, device failures or unavailable services. Nothing here limits rights that cannot legally be excluded.</li>
         <li>Clearing app data or uninstalling the app may remove local records and may require you to accept updated terms again.</li>
       </ol>
